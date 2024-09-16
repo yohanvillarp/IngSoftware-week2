@@ -69,12 +69,13 @@
 
             <p>
               <label for="">Nombres</label><br>
-              <input type="text" name="nombres" required pattern="[A-Za-z]{2,254}">
+              <input type="text" name="nombres" required pattern="[A-Za-z]{3,254}">
             </p>
             <p>
               <label for="">Apellidos</label><br>
               <input type="text" name="apellidos" required pattern="[a-zA-Z]{2,254}">
             </p>
+
             <p>
               <label for="">Email</label><br>
               <input type="email" name="email" required placeholder="ejemplo@unamad.edu.pe">
@@ -105,6 +106,89 @@
             </p>
           </form>
         </div>
+
+        <div>
+          <table border="5px">
+            <thead>
+              <th>Nombre</th>
+              <th>Apellidos</th>
+              <th>Escuela Profesional</th>
+              <th>Genero</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Juan</td>
+                <td>Perez</td>
+                <td>Ingeniería en Informática</td>
+                <td rowspan="2">Masculino</td>
+              </tr>
+
+              <tr>
+                <td>Pedro</td>
+                <td>Sanz</td>
+                <td>Licenciatura en Contaduría</td>
+              </tr>
+              
+              <tr>
+                <td>Maria</td>
+                <td>Garcia</td>
+                <td>Licenciatura en Biología</td>
+                <td rowspan="2">Femenino</td>
+              </tr>
+              
+              <tr>
+                <td>Ana</td>
+                <td>Lopez</td>
+                <td>Licenciatura en Administración</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h3>Horario academico</h3>
+        <table border="5px">
+          <thead>
+            <th>Horario</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>14:00-15:00</td>
+              <td rowspan="2">DESARROLLO DE APLICACIONES WEB</td>
+              <td></td>
+              <td rowspan="2">INGENIERIA DE SOFTWARE</td>
+              <td rowspan="2"></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>15:00-17:00</td>
+              <td rowspan="1">INGENIERIA DE SOFTWARE</td>
+              <td rowspan="1">DESARROLLO DE APLICACIONES WEB</td>
+            </tr>
+            <tr>
+              <td>17:00-19:00</td>
+              <td rowspan="1">ARQUITECTURA DEL COMPUTADOR</td>
+              <td></td>
+              <td></td>
+              <td rowspan="1">GESTION FINANCIERA Y DE PROCESOS DE NEGOCIOS</td>
+              <td>FUNDAMENTOS DE REDES</td>
+            </tr>
+            <tr>
+              <td>19:00-21:00</td>
+              <td>FUNDAMENTOS DE REDES</td>
+              <td rowspan="1">GESTION FINANCIERA Y DE PROCESOS DE NEGOCIOS</td>
+              <td rowspan="1">BIG DATA</td>
+              <td rowspan="1">BIG DATA</td>
+              <td rowspan="1">ARQUITECTURA DEL COMPUTADOR</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
     </main>
   </body>
