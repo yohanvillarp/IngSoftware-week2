@@ -13,7 +13,7 @@
           <li>Nosotros</li>
           <li>Procesos</li>
           <li>Galeria</li>
-          <li>Intranet</li>
+          <li>Contacto</li>
         </ul>
       </nav>
     </header>
@@ -41,6 +41,69 @@
             ratione repellat veritatis alias ducimus obcaecati ex veniam
             corrupti. Voluptate minus omnis repudiandae ratione?
           </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Contactanos</h2>
+        <div>
+          <img src="assests/contactos.jpeg" alt="contactos" width="80px">
+        </div>
+        <div>
+          <form action="">
+            <p>
+              <label for="">Registro</label> <br>
+              <label for="">
+                <input type="radio" name="titulo" value="sr">
+                Sr
+              </label>
+              <label for="">
+                <input type="radio" name="titulo" value="sra">
+                Sra
+              </label>
+              <label for=""></label>
+                <input type="radio" name="titulo" value="srta">
+                Srita
+              </label>
+            </p>
+
+            <p>
+              <label for="">Nombres</label><br>
+              <input type="text" name="nombres" required pattern="[A-Za-z]">
+            </p>
+            <p>
+              <label for="">Apellidos</label><br>
+              <input type="text" name="apellidos" required pattern="[A-Za-z]">
+            </p>
+            <p>
+              <label for="">Email</label><br>
+              <input type="email" name="email" required placeholder="ejemplo@unamad.edu.pe">
+            </p>
+            <p>
+              <label for="">Dirección</label><br>
+              <input type="text" name="direccion" required placeholder="Av.Leon Velarde 789">
+            </p>
+            <p>
+              <label for="">Telefono</label><br>
+              <input type="number" name="telefono" required placeholder="915915670">
+            </p>
+            <p>
+              <label for="">Regiones</label>
+              <select>
+                <option>Madre de Dios</option>
+                <option>Cusco</option>
+                <option>Puno</option>
+                <option>Arequipa</option>
+                <option>Apurimac</option>
+                <option>Ucayali</option>
+                <option selected="true">Huánuco</option>
+              </select>
+            </p>
+            <p>
+              <button>Enviar</button>
+              <button type="reset">Limpiar</button>
+            </p>
+          </form>
         </div>
       </section>
     </main>
